@@ -1,7 +1,16 @@
 # docker-npm-agent
-Linux Alpine with Ruby, Node.js, Git and Python installed
+Linux Alpine with Ruby, Node.js, Git and Python installed.
+This docker image includes software needed for releasing NPM modules and updating changelog.
 
-This is Docker configuration running Linux Alpine machine. It has `Ruby`, `Node.js`, `Git`, and `Python` pre-installed already.
+### OS
+**Linux Alpine**
+
+### Installed Software
+* `Ruby`
+* `Node.js`
+* `Git`
+* `Python`
+* `github_changelog_generator`
 
 ## Requirements
 It doesn't require any environment variables to be passed.
