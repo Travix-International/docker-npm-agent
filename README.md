@@ -8,7 +8,7 @@ This docker image includes software needed for releasing NPM modules and updatin
 ### Installed Software
 * `Bash`
 * `Ruby` (2.2.4)
-* `Node.js` (10.9.0, npm 6.4.0)
+* `Node.js` (10.12.0, npm 6.4.1)
 * `Git`
 * `Python`
 * `github_changelog_generator`
