@@ -1,5 +1,3 @@
-FROM scardon/ruby-node-alpine:latest
+FROM node:11.3.0-alpine
 
-RUN apk --no-cache add git python make openssh bash
-RUN gem install github_changelog_generator
-
+RUN apk --no-cache add git
