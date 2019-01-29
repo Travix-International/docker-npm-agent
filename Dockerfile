@@ -1,3 +1,3 @@
-FROM node:11.3.0-alpine
+FROM node:carbon-alpine
 
 RUN apk --no-cache add git
