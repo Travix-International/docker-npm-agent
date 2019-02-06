@@ -1,3 +1,3 @@
-FROM node:carbon-alpine
+FROM node:dubnium-alpine
 
 RUN apk --no-cache add git
