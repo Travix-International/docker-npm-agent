@@ -1,5 +1,4 @@
-FROM scardon/ruby-node-alpine:latest
+FROM node:12-alpine
 
-RUN apk --no-cache add git python make openssh bash
-RUN gem install github_changelog_generator
-
+# Support node-gyp and semantic-release
+RUN apk add --no-cache --virtual .gyp python make g++ git openssh bash
