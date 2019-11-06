@@ -1,3 +1,4 @@
 FROM node:erbium-alpine
 
-RUN apk --no-cache add git
+# Support node-gyp and semantic-release
+RUN apk add --no-cache --virtual .gyp python make g++ git openssh bash
