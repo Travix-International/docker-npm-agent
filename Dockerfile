@@ -1,17 +1,4 @@
-FROM scardon/ruby-node-alpine:latest
-
-RUN apk update
-
-# Install prod dependencies
-RUN apk -Uuv add --no-cache \
-  make \
-  curl \
-  groff \
-  less \
-  nodejs-npm \
-  bash \
-  python \
-  ruby
+FROM scardon/ruby-node-alpine:2.6
 
 # Support node-gyp and semantic-release
 RUN apk add --no-cache --virtual .gyp python make g++ git openssh bash
